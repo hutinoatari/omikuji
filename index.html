@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>大吉確定無料10連御御籤</title>
+</head>
+<body>
+    <header>
+        <h1>大吉確定無料10連御御籤</h1>
+    </header>
+    <main>
+        <div><button id="hiku" onclick="hiku.disabled=true,kekka.textContent='ガラガラ',t=setInterval(()=>{kekka.textContent+='.'},1000/3),setTimeout(()=>{clearInterval(t);for(i=0;i<10;i+=1)alert(`${i+1}枚目: 大吉`);kekka.innerHTML='大吉<br>大吉<br>大吉<br>大吉<br>大吉<br>大吉<br>大吉<br>大吉<br>大吉<br>大吉',hiku.disabled=false,hiku.textContent='ツイートする',hiku.onclick=()=>{window.open().location.href='https://twitter.com/intent/tweet?&text=大吉確定無料10連御御籤を引いたよ！%0A大吉%0A大吉%0A大吉%0A大吉%0A大吉%0A大吉%0A大吉%0A大吉%0A大吉%0A大吉%0Ahttps://hutinoatari.github.io/omikuji/'}},Math.random()*10000+5000)">引く</button></div>
+        <output id="kekka"></output>
+    </main>
+</body>
+</html>
